@@ -162,16 +162,16 @@ int main(int argc, const char *argv[])
 
     //Release all dynamically allocated memory
     delete[] firstShapeX;
-    firstShapeX = NULL;
+    firstShapeX = nullptr;
 
     delete[] firstShapeY;
-    firstShapeY = NULL;
+    firstShapeY = nullptr;
 
     delete[] secondShapeX;
-    secondShapeX = NULL;
+    secondShapeX = nullptr;
 
     delete[] secondShapeY;
-    secondShapeY = NULL;
+    secondShapeY = nullptr;
 
 
     return 0;
